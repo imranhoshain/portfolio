@@ -1,0 +1,211 @@
+/*
+   Responsive CSS
+*/
+
+
+/* -------------------------------------------------------
+                    Responsive
+-------------------------------------------------------- */
+
+@media screen and (max-width: 767px) {
+    * {
+        background-position: 50% 0%;
+    }
+    .navbar-default .logo {
+        margin-left: 20px;
+    }
+    .navbar-default .navbar-toggle {
+        background: none !important;
+        margin-top: 15px !important;
+        border: none !important;
+    }
+    .navbar-default .navbar-toggle:hover,
+    .navbar-default .navbar-toggle:focus {
+        background: transparent !important;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background: #fff;
+    }
+    .navbar-default .navbar-nav li a {
+        color: #111 !important;
+        display: inline-block;
+    }
+    .navbar-default .navbar-collapse {
+        text-align: center;
+        border: none;
+        border-top: 1px solid rgba(12, 12, 12, 0.04);
+        background: #fff;
+        margin-top: 5px;
+    }
+    .nav-scroll .navbar-toggle .icon-bar {
+        background: #111;
+    }
+    .section-border {
+        padding: 0px;
+    }
+    .section-border:after,
+    .section-border:before {
+        display: none;
+    }
+    .portfolio .filtering span {
+        margin: 10px 2px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .navbar-default .navbar-nav>li>a {
+        padding: 4px !important;
+        margin: 20px 10px 0 !important;
+    }
+    .header h1 {
+        font-size: 40px !important;
+    }
+    .section-border {
+        padding: 80px 30px !important;
+    }
+    .hero .hero-img,
+    .skills .skills-info,
+    .numbers .item,
+    .blog .item,
+    .contact .form {
+        margin-bottom: 50px;
+    }
+    .column-left {
+        margin-left: 5%;
+        margin-bottom: 100px;
+        padding-left: 50px;
+        padding-right: 0 !important;
+        border-left: 2px solid #eee;
+        border-right: 0 !important;
+        text-align: left !important;
+    }
+    .column-left .icon {
+        left: calc(5% - 6px);
+    }
+    .column-left .item:after {
+        left: -54px !important;
+    }
+    .clients .owl-carousel {
+        width: 95%;
+        margin: auto;
+    }
+    .portfolio .items {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1024px) {}
+
+
+/* ---- Start of max-width 992px CSS ---- */
+
+@media (max-width: 992px) {
+    .sm-padding {
+        padding: 15px;
+    }
+    .sm-br-none br {
+        display: none;
+    }
+    .blog-posts .col-6,
+    .portfolio-items .col-6,
+    .counter-items .col-6,
+    .promo-items .col-6 {
+        float: left;
+        width: 50%;
+        max-width: 50%;
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+    }
+}
+
+
+/* ---- End of max-width 992px CSS ---- */
+
+
+/* ---- Start of min-width 480px and max-width 768px CSS ---- */
+
+@media all and (min-width: 480px) and (max-width: 768px) {}
+
+
+/* ---- End of min-width 480px and max-width 768px CSS ---- */
+
+
+/* ---- Start of max-width 767px CSS ---- */
+
+@media all and (max-width: 767px) {
+    body,
+    p {
+        font-size: 12px;
+    }
+    .ptb-100 {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .pb-60 {
+        padding-bottom: 60px;
+    }
+    .xs-mb-15 {
+        margin-bottom: 15px !important;
+    }
+    .xs-padding {
+        padding: 15px;
+    }
+    .xs-text-left {
+        text-align: left;
+    }
+    .xs-text-center {
+        text-align: center !important;
+    }
+    .xs-no-padding {
+        padding: 0;
+    }
+    .xs-br-none br {
+        display: none;
+    }
+}
+
+
+/* ---- End of max-width 767px CSS ---- */
+
+
+/* ---- Start of max-width 520px CSS ---- */
+
+@media all and (max-width: 520px) {
+    .container .col-6 {
+        float: none;
+        width: 100%;
+        max-width: 100%;
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        padding: 15px;
+    }
+    .counter-section .col-6 {
+        float: left;
+        width: 50%;
+        max-width: 50%;
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+    }
+}
+
+
+/* ---- End of max-width 520px CSS ---- */
+
+
+/* ---- Start of max-width 420px CSS ---- */
+
+@media all and (max-width: 420px) {}
+
+
+/* ---- End of max-width 420px CSS ---- */
+
+
+/* ---- Start of max-width 380px CSS ---- */
+
+@media all and (max-width: 380px) {}
+
+
+/* ---- End of max-width 380px CSS ---- */
